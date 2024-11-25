@@ -13,7 +13,7 @@ function getAsset(filename, githubFilePath)
   end
   return gotten
 end
-return function(list, entity, color)
+ function glight(list, entity, color)
   local max=#list
   local deaths
   if not isfile(entity.."/deaths") then
@@ -64,4 +64,4 @@ return function(list, entity, color)
     text:Destroy()
     scrGui:Destroy()
 end
-  
+  return glight
