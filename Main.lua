@@ -3,7 +3,7 @@
 local function getAsset(filename, githubFilePath)
     if not isfile(filename) then
         local repo = "softbf395/Guiding-light-roblox/refs/heads/main/"
-        local method = "raw.githubusercontent.com/" .. repo
+        local method = "https://raw.githubusercontent.com/" .. repo
         local content = game:HttpGet(method .. githubFilePath)
         writefile(filename, content)
     end
