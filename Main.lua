@@ -45,6 +45,7 @@ local function glight(list, entity, color)
     BG.BackgroundTransparency = 1
     BG.ImageColor3 = color or Color3.new(0, 0.5, 0.5)
     BG.Image = GLightBG
+    BG.Size = UDim2.new(1, 0, 1, 0)
     Sound.SoundId = Music
 
     -- Set up text label for the message
