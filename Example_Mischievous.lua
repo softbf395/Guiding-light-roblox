@@ -14,7 +14,7 @@ local messagesList = {
 }
 
 -- Example usage: Calling the glight function
-local entity = "Example (Mischievous light)"  -- The entity name (player name in this case)
+local entity = "Example Mischievous light"  -- The entity name (player name in this case)
 local color = Color3.fromRGB(255, 0, 0)  -- Red color
 
 -- Call the glight function with the messages list, entity, and color
