@@ -77,7 +77,7 @@ local function glight(list, entity, color)
 
     -- Loop through the message pairs for the current death count and show them
     for _, messagePair in ipairs(messageData) do
-        local messageText = messagePair[1]  -- The first part of the pair (e.g., "one death")
+        local messageText = messagePair  -- The first part of the pair (e.g., "one death")
         showMessage(messageText)
     end
 
