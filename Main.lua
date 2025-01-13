@@ -52,7 +52,7 @@ local function glight(list, entity, color)
     local text = Instance.new("TextLabel", BG)
     text.BackgroundTransparency = 1
     text.Size = UDim2.new(.4, 0, .4, 0)
-    text.Position = UDim2.new(0.5, 0, 0.5, 0)
+    text.Position = UDim2.new(0.2, 0, 0.2, 0)
     text.TextSize = 50
     text.TextScaled = true
     text.TextTransparency = 1
