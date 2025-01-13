@@ -34,7 +34,7 @@ local function glight(list, entity, color)
     end
 
     -- Get the messages and resources for the current death count
-    local messageData = list[deaths]
+    local messageData = list[deaths or 1]
     local GLightBG = getAsset("guidingLight/BG.png", "GLightBG.png")
     local Music = getAsset("guidingLight/Song.mp3", "GLIGHT.mp3")
     local ScrGui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
