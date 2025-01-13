@@ -5,10 +5,10 @@ local glight = loadstring(game:HttpGet("https://raw.githubusercontent.com/softbf
 
 -- Example death messages table
 local messagesList = {
-  { --death #1
+  [1] = { --death #1
     "You have not died to nothing", "example 1"
   },
-  { --death #2
+  [2] = { --death #2
     "You have not died to nothing", "example 2"
   }
 }
